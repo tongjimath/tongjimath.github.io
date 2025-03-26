@@ -10,7 +10,7 @@
   font-family: 'JetBrains Mono';
   src: local('JetBrains Mono'), url('/font/JetBrainsMono-Regular.woff2') format('woff2');
 }
-</style><script>var config = {"root":"/","search":{"preload":false,"activeHolder":"键入以继续","blurHolder":"检索","noResult":"无 $0 相关数据"},"code":{"codeInfo":"$0 - $1 行","copy":"复制"}}</script><link type="text/css" rel="stylesheet" href="/lib/encrypt/hbe.style.css"><script src="//unpkg.com/mermaid@10.5.0/dist/mermaid.min.js"></script><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lightgallery.css"><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lg-zoom.css"><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lg-thumbnail.css"><link type="text/css" rel="stylesheet" href="/lib/fontawesome/css/all.min.css"><script>if (window.localStorage.getItem('theme-mode') === 'light')
+</style><script>var config = {"root":"/","search":{"preload":false,"activeHolder":"键入以继续","blurHolder":"检索","noResult":"无 $0 相关数据"},"code":{"codeInfo":"$0 - $1 行","copy":"复制"}}</script><link type="text/css" rel="stylesheet" href="/lib/encrypt/hbe.style.css"><script src="/js/gitalk.js"></script><script src="//unpkg.com/mermaid@10.5.0/dist/mermaid.min.js"></script><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lightgallery.css"><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lg-zoom.css"><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lg-thumbnail.css"><link type="text/css" rel="stylesheet" href="/lib/fontawesome/css/all.min.css"><script>if (window.localStorage.getItem('theme-mode') === 'light')
  document.documentElement.setAttribute('theme-mode', 'light')
 if (window.localStorage.getItem('theme-mode') === 'dark')
  document.documentElement.setAttribute('theme-mode', 'dark')</script><style>@font-face {
@@ -24,10 +24,19 @@ if (window.localStorage.getItem('theme-mode') === 'dark')
  --dark-background: url('/img/bg.jpg');
  --light-background: url('/img/bk.jpg');
  --theme-encrypt-confirm: '确认'
-}</style><script defer src="/js/arknights.js"></script><script defer src="/js/search.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script defer type="module">import mermaid from '//unpkg.com/mermaid@10.5.0/dist/mermaid.esm.mjs';
+}</style><script defer src="/js/arknights.js"></script><script defer src="/js/search.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script async src="/js/gitalk.js"></script><script defer type="module">import mermaid from '//unpkg.com/mermaid@10.5.0/dist/mermaid.esm.mjs';
 window.mermaid = mermaid;
 code.paintMermaid();
-</script><script async src="//unpkg.com/lightgallery@2.7.1/lightgallery.min.js"></script><script async src="//unpkg.com/lightgallery@2.7.1/plugins/zoom/lg-zoom.min.js"></script><script async src="//unpkg.com/lightgallery@2.7.1/plugins/thumbnail/lg-thumbnail.min.js"></script><script async src="/lib/encrypt/hbe.js"></script><script async src="/js/pjax.js"></script><script class="pjax-js">reset= () => {document.querySelector('.lg-container')?.remove()
+</script><script async src="//unpkg.com/lightgallery@2.7.1/lightgallery.min.js"></script><script async src="//unpkg.com/lightgallery@2.7.1/plugins/zoom/lg-zoom.min.js"></script><script async src="//unpkg.com/lightgallery@2.7.1/plugins/thumbnail/lg-thumbnail.min.js"></script><script async src="/lib/encrypt/hbe.js"></script><script async src="/js/pjax.js"></script><script class="pjax-js">reset= () => {gitalk = new Gitalk({
+ clientID: 'Ov23liXxFtJ0I16Ejhhs',
+ clientSecret: '96562167fc3599bb494b5c223f7e94fe2c5b4062',
+ repo: 'tongjimath/comments-of-tongjishuxuewaimai',
+ owner: 'tongjimath',
+ admin: ['tongjimath''SEML04'],
+ distractionFreeMode: false,
+ id: location.pathname
+});
+if (document.querySelector("#gitalk")) gitalk.render("gitalk");document.querySelector('.lg-container')?.remove()
 lightGallery(document.getElementById('post-bg'), {
   plugins: [lgZoom,lgThumbnail],
   selector: '.item-img'})}</script><script>window.addEventListener("load",() => {pjax = new Pjax({
@@ -47,7 +56,16 @@ document.addEventListener("pjax:complete", reset);document.addEventListener('pja
  "//busuanzi.ibruce.info/busuanzi?jsonpCallback=BusuanziCallback", a => {
   bszTag.texts(a),
   bszTag.shows()
-}));reset()})</script><script class="pjax-js">reset= () => {document.querySelector('.lg-container')?.remove()
+}));reset()})</script><script class="pjax-js">reset= () => {gitalk = new Gitalk({
+ clientID: 'Ov23liXxFtJ0I16Ejhhs',
+ clientSecret: '96562167fc3599bb494b5c223f7e94fe2c5b4062',
+ repo: 'tongjimath/comments-of-tongjishuxuewaimai',
+ owner: 'tongjimath',
+ admin: ['tongjimath''SEML04'],
+ distractionFreeMode: false,
+ id: location.pathname
+});
+if (document.querySelector("#gitalk")) gitalk.render("gitalk");document.querySelector('.lg-container')?.remove()
 lightGallery(document.getElementById('post-bg'), {
   plugins: [lgZoom,lgThumbnail],
   selector: '.item-img'})}</script><script>window.addEventListener("load",() => {pjax = new Pjax({
@@ -189,5 +207,5 @@ Jordan标准型”章节的讲座，后续还有更多线代、高代以及高�
 <p><strong><em>解答中可能会出现笔误等情况,参考答案时需要加以注意!!!</em></strong></p>
 <p><a href="/download/gaodai/24/12.7Jordan标准型答案.pdf">Jordan标准型答案</a></p>
 </center>
-<div id="paginator"></div></div><div id="post-footer"><div id="pages"><div class="footer-link" style="width: 50%;text-align:right;border-right:1px #fe2 solid"><a href="/2024/12/14/gaodai/24%E9%AB%98%E4%BB%A3%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84%E5%92%8C%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4/">← 下一篇 高代(加)讲座--线性方程组和线性空间</a></div><div class="footer-link" style="width: 50%;right:1px;border-left:1px #fe2 solid"><a href="/2024/12/07/gaoshu/24%E5%AE%9A%E7%A7%AF%E5%88%86/">高数讲座--定积分 上一篇 →</a></div></div></div></div><div class="bottom-btn"><div><a class="i-top" id="to-top" onClick="scrolls.scrolltop();" title="回到顶部" style="opacity: 0; display: none;">∧ </a><a class="i-index" id="to-index" href="#toc-div" title="文章目录">≡</a><a class="i-color" id="color-mode" onClick="colorMode.change()" title="切换主题"></a></div></div></article><aside><div id="about"><a href="/" id="logo"><img src="/img/faction/tjmathlogo.png" alt="Logo"></a><h1 id="Dr"><a href="/">数学外卖</a></h1><div id="description"><p>同济大学数学外卖 <br>提供高数代数等“加餐”服务 <br> <br>请关注学院账号谢谢喵 <br>『同济数学青年』 <br> <br>请关注数学外卖B站号谢谢喵 <br>『一题_撬动数学』</p></div><div id="social-links"><a class="social" target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/FijxqfbFK6ibg8MT9xrYVQ"><i class="fa-brands fa-weixin" alt="WeChat"></i></a><a class="social" target="_blank" rel="noopener" href="https://space.bilibili.com/457889931?spm_id_from=333.337.0.0"><i class="fa-brands fa-bilibili" alt="BiliBili"></i></a></div></div><div id="aside-block"><div id="toc-div"><h1>目录</h1><ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%A3%E6%95%B0%E7%BB%84%E7%AC%AC%E5%85%AB%E6%AC%A1%E8%AE%B2%E5%BA%A7%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0%E5%8A%A0-jordan%E6%A0%87%E5%87%86%E5%9E%8B"><span class="toc-number">1.</span> <span class="toc-text">代数组第八次讲座————高等代数(加)
+<div id="paginator"></div></div><div id="post-footer"><div id="pages"><div class="footer-link" style="width: 50%;text-align:right;border-right:1px #fe2 solid"><a href="/2024/12/14/gaodai/24%E9%AB%98%E4%BB%A3%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84%E5%92%8C%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4/">← 下一篇 高代(加)讲座--线性方程组和线性空间</a></div><div class="footer-link" style="width: 50%;right:1px;border-left:1px #fe2 solid"><a href="/2024/12/07/gaoshu/24%E5%AE%9A%E7%A7%AF%E5%88%86/">高数讲座--定积分 上一篇 →</a></div></div></div><div id="comments"><div id="gitalk"></div></div></div><div class="bottom-btn"><div><a class="i-top" id="to-top" onClick="scrolls.scrolltop();" title="回到顶部" style="opacity: 0; display: none;">∧ </a><a class="i-index" id="to-index" href="#toc-div" title="文章目录">≡</a><a class="i-color" id="color-mode" onClick="colorMode.change()" title="切换主题"></a></div></div></article><aside><div id="about"><a href="/" id="logo"><img src="/img/faction/tjmathlogo.png" alt="Logo"></a><h1 id="Dr"><a href="/">数学外卖</a></h1><div id="description"><p>同济大学数学外卖 <br>提供高数代数等“加餐”服务 <br> <br>请关注学院账号谢谢喵 <br>『同济数学青年』 <br> <br>请关注数学外卖B站号谢谢喵 <br>『一题_撬动数学』</p></div><div id="social-links"><a class="social" target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/FijxqfbFK6ibg8MT9xrYVQ"><i class="fa-brands fa-weixin" alt="WeChat"></i></a><a class="social" target="_blank" rel="noopener" href="https://space.bilibili.com/457889931?spm_id_from=333.337.0.0"><i class="fa-brands fa-bilibili" alt="BiliBili"></i></a></div></div><div id="aside-block"><div id="toc-div"><h1>目录</h1><ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%A3%E6%95%B0%E7%BB%84%E7%AC%AC%E5%85%AB%E6%AC%A1%E8%AE%B2%E5%BA%A7%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0%E5%8A%A0-jordan%E6%A0%87%E5%87%86%E5%9E%8B"><span class="toc-number">1.</span> <span class="toc-text">代数组第八次讲座————高等代数(加)
 Jordan标准型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%9B%B8%E5%85%B3%E8%A7%86%E9%A2%91"><span class="toc-number">2.</span> <span class="toc-text">相关视频</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#%E8%B5%84%E6%96%99%E4%B8%8B%E8%BD%BD"><span class="toc-number">2.0.1.</span> <span class="toc-text">资料下载</span></a></li></ol></li></ol></li></ol></div></div><footer><nobr>构建自 <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1wN41187fP?spm_id_from=333.788.recommend_more_video.0&amp;vd_source=ed3bf68758fbea2c0adeca484c916f59">Hexo</a></nobr><wbr><nobr> 主题为 <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1om411m7LH?spm_id_from=333.788.recommend_more_video.0&amp;vd_source=8b4a5dd02be9a9f856f82f589b6287c4">Arknights</a></nobr><wbr><nobr> 详情见 <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Qx4y1h7CJ/?vd_source=8b4a5dd02be9a9f856f82f589b6287c4">More</a></nobr></footer></aside></main><canvas id="canvas-dust"></canvas></body></html>
